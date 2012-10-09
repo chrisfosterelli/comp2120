@@ -1,0 +1,60 @@
+stealth@cog:~/Java/1$ javac PersonDriver.java ; java PersonDriver
+
+Demonstrating toString()
+Person 1: N/A, N/A
+Person 2: Foster, Christopher
+
+Demonstrating mutators
+Person 1: Foster, Aaron
+
+Demonstrating accessors
+Person 1 First Name: Aaron
+Person 1 Last Name: Foster
+
+Demonstrating equals()
+Person 1 and Person 2 are not equal
+Person 1 and Person 2 are now equal
+
+Output done.
+stealth@cog:~/Java/1$ 
+ 
+stealth@cog:~/Java/1$ javac LawyerDriver.java ; java LawyerDriver
+
+Demonstrating toString()
+
+Lawyer 1:
+XYZ Law Company
+Name: N/A, N/A
+Practice: N/A
+Hourly Rate: 0.0
+
+Lawyer 2:
+XYZ Law Company
+Name: Foster, Christopher
+Practice: Corporate Law
+Hourly Rate: 24.3
+
+Demonstrating mutators
+
+Lawyer 1:
+XYZ Law Company
+Name: Foster, Aaron
+Practice: Personal Injury
+Hourly Rate: 27.8
+
+Demonstrating accessors
+Lawyer 1 Name: Foster, Aaron
+Lawyer 1 Practice: Personal Injury
+Lawyer 1 Rate: 27.8
+
+Demonstrating equals()
+Lawyer 1 and Lawyer 2 are not equal
+Lawyer 1 and Lawyer 2 are now equal
+
+Demonstrating paycheck calculate
+Pay for 14 hours for Lawyer 1: $389.20
+Pay for 27 hours for Lawyer 1: $750.60
+
+Output done.
+stealth@cog:~/Java/1$ 
+
