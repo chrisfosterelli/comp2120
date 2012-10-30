@@ -1,0 +1,165 @@
+stealth@cog:~/workspace/code/Java/COMP2120/s6$ javac Driver.java ; java Driver
+
+================= Electronic Class ===================
+
+Power status of electronic 9: false
+
+Changing power states
+Power status of electronic 9: true
+
+Changing power states
+Power status of electronic 9: false
+
+================= Phone Class ===================
+
+Calling phone 250-572-8888 with electronic 1: 
+Phone is off.
+
+Turning phone on.
+
+Calling phone 250-572-8888 with electronic 1: 
+Connecting call from 2503761393 to 2505728888...
+
+================= SmartPhone Class ===================
+
+App count of electronic 3: 0
+
+Installing application: 
+Smartphone is off
+
+App count of electronic 3: 0
+
+Turning smartphone on.
+
+Installing application: 
+Application installed.
+
+App count of electronic 3: 1
+
+Uninstalling application: 
+Application uninstalled.
+
+App count of electronic 3: 0
+
+================= SatellitePhone Class ===================
+
+Turning Satellitephone on.
+
+Calling phone 250-572-8888 with electronic 5: 
+Not connected to satellite!
+
+Connecting electronic 3 to satellite: 
+Locating satellite... 
+Connected.
+
+Calling phone 250-572-8888 with electronic 5: 
+Dialing satellite... 
+Connecting call from 18728238999 to 2505728888...
+
+Disconnecting electronic 3 from satellite: 
+Disconnected from satellite.
+
+================= Television Class ===================
+
+Current channel for electronic 7: 15
+
+Hitting channel up button: 
+TV is not on
+
+Current channel for electronic 7: 15
+
+Turning television on.
+
+Hitting channel up button: 
+
+Current channel for electronic 7: 16
+
+Hitting channel down button: 
+
+Current channel for electronic 7: 15
+
+================= Electronics List ===================
+
+Manufacturer: Nokia
+Product Model: 1161
+Product Weight: 0.999kg
+Power Usage: 3.0V
+Cost (USD): $49.99
+Phone number: 2503761393
+
+Manufacturer: Alcatel
+Product Model: 1195A
+Product Weight: 1.57kg
+Power Usage: 3.0V
+Cost (USD): $29.99
+Phone number: 2503761222
+
+Manufacturer: Samsung
+Product Model: S3
+Product Weight: 0.112kg
+Power Usage: 3.0V
+Cost (USD): $599.99
+Phone number: 2505727988
+Installed applications: 0
+
+Manufacturer: Apple
+Product Model: Iphone 5
+Product Weight: 0.101kg
+Power Usage: 4.1V
+Cost (USD): $699.99
+Phone number: 2505728123
+Installed applications: 15
+
+Manufacturer: Iridium
+Product Model: 9900
+Product Weight: 0.26kg
+Power Usage: 5.0V
+Cost (USD): $1395.99
+Phone number: 18728238999
+Satellite connection status: false
+
+Manufacturer: Globalstar
+Product Model: Ab3
+Product Weight: 0.572kg
+Power Usage: 12.0V
+Cost (USD): $499.99
+Phone number: 18738889123
+Satellite connection status: true
+
+Manufacturer: Panasonic
+Product Model: 32" VIERA
+Product Weight: 10.0kg
+Power Usage: 200.0V
+Cost (USD): $249.99
+Current channel: 15
+
+Manufacturer: Samsung
+Product Model: 75" Smart TV
+Product Weight: 49.7kg
+Power Usage: 125.0V
+Cost (USD): $9999.99
+Current channel: 13
+
+Manufacturer: N/A
+Product Model: N/A
+Product Weight: 0.0kg
+Power Usage: 0.0V
+Cost (USD): $0.0
+
+Manufacturer: N/A
+Product Model: N/A
+Product Weight: 0.0kg
+Power Usage: 0.0V
+Cost (USD): $0.0
+
+================= Most Expensive Electronic ===================
+
+Most expensive electronic item: 
+Manufacturer: Samsung
+Product Model: 75" Smart TV
+Product Weight: 49.7kg
+Power Usage: 125.0V
+Cost (USD): $9999.99
+Current channel: 13
+
+stealth@cog:~/workspace/code/Java/COMP2120/s6$ 
