@@ -1,0 +1,46 @@
+stealth@cog:~/workspace/code/Java/COMP2120/s7$ javac Driver.java ; java Driver
+
+Comparing Elephants: Animal 1 weighs more.
+
+Comparing Snakes: Animal 4 is longer.
+
+Comparing Hawks: Animal 5 has longer wings.
+
+Demonstrating sounds and movement:
+The elephant trumpets loudly.
+The elephant slowly walks.
+The elephant trumpets loudly.
+The elephant slowly walks.
+The snake hisses dangerously.
+The snake slithers silently.
+The snake hisses dangerously.
+The snake slithers silently.
+The hawk shrieks piercingly
+The hawk flies gracefully.
+The hawk shrieks piercingly
+The hawk flies gracefully.
+
+Current state of zoo: 
+Elephant@1fb8ee3
+Elephant@61de33
+Snake@14318bb
+Snake@ca0b6
+Hawk@10b30a7
+Hawk@1a758cb
+
+Removing the first element.
+Current state of zoo: 
+Elephant@61de33
+Snake@14318bb
+Snake@ca0b6
+Hawk@10b30a7
+Hawk@1a758cb
+null
+
+Demonstrating hasNext() and next() over the rest of the array
+Snake@14318bb
+Snake@ca0b6
+Hawk@10b30a7
+Hawk@1a758cb
+null
+stealth@cog:~/workspace/code/Java/COMP2120/s7$ 
