@@ -1,0 +1,65 @@
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ javac DateConverter.java ; java DateConverter # Demonstrate slash checking
+Please enter a date (mm/dd/yyyy)): 01/2012
+Exactly two slashes are required
+Please enter a date (mm/dd/yyyy)): /04/24/1994/
+Exactly two slashes are required
+Please enter a date (mm/dd/yyyy)): /04/24/1994
+Exactly two slashes are required
+Please enter a date (mm/dd/yyyy)): 04/24/1994
+April 24, 1994 is a valid date.
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ 
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ javac DateConverter.java ; java DateConverter # Demonstrate integer checking
+Please enter a date (mm/dd/yyyy)): feb/08/1984
+The input part "feb" is not an integer
+Please enter a date (mm/dd/yyyy)): 02/eighth/1984
+The input part "eighth" is not an integer
+Please enter a date (mm/dd/yyyy)): 2/8/FF   
+The input part "FF" is not an integer
+Please enter a date (mm/dd/yyyy)): 2/8/1984
+February 8, 1984 is a valid date.
+stealth@cog:~/workspace/code/Java/COMP2120/s8$
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ javac DateConverter.java ; java DateConverter # Demonstrate month bounds checking
+Please enter a date (mm/dd/yyyy)): -1/24/2007
+The month -1 is not between 1 and 12
+Please enter a date (mm/dd/yyyy)): 0/24/2007
+The month 0 is not between 1 and 12
+Please enter a date (mm/dd/yyyy)): 13/24/2007
+The month 13 is not between 1 and 12
+Please enter a date (mm/dd/yyyy)): 12/24/2007
+December 24, 2007 is a valid date.
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ 
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ javac DateConverter.java ; java DateConverter # Demonstrate year bounds checking
+Please enter a date (mm/dd/yyyy)): 06/1/0
+The year 0 is not between 1900 and 2012
+Please enter a date (mm/dd/yyyy)): 06/1/1899
+The year 1899 is not between 1900 and 2012
+Please enter a date (mm/dd/yyyy)): 6/1/2013
+The year 2013 is not between 1900 and 2012
+Please enter a date (mm/dd/yyyy)): 6/1/1907
+June 1, 1907 is a valid date.
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ 
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ javac DateConverter.java ; java DateConverter # Demonstrate day bounds checking
+Please enter a date (mm/dd/yyyy)): 01/90/2001
+There are not 90 days in January
+Please enter a date (mm/dd/yyyy)): 01/-40/2001
+There are not -40 days in January
+Please enter a date (mm/dd/yyyy)): 04/31/2001
+There are not 31 days in April
+Please enter a date (mm/dd/yyyy)): 11/31/2001
+There are not 31 days in November
+Please enter a date (mm/dd/yyyy)): 11/0/2001
+There are not 0 days in November
+Please enter a date (mm/dd/yyyy)): 11/30/2001
+November 30, 2001 is a valid date.
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ 
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ javac DateConverter.java ; java DateConverter # Demonstrate leap year special case handling
+Please enter a date (mm/dd/yyyy)): 02/29/2011
+There are not 29 days in February
+Please enter a date (mm/dd/yyyy)): 02/29/2012
+February 29, 2012 is a valid date.
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ javac DateConverter.java ; java DateConverter # Demonstrate leap year special case handling (2)
+Please enter a date (mm/dd/yyyy)): 02/29/1900
+There are not 29 days in February
+Please enter a date (mm/dd/yyyy)): 02/29/2000
+February 29, 2000 is a valid date.
+stealth@cog:~/workspace/code/Java/COMP2120/s8$ 
