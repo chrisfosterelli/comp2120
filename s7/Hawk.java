@@ -41,4 +41,9 @@ public class Hawk implements Animal, Comparable {
 		return (int)(this.getWingspan() - ((Hawk)o).getWingspan());
 	}
 
+	/* toString() */
+	public String toString() {
+		return "Hawk object";
+	}
+
 }

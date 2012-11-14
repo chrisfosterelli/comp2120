@@ -41,4 +41,9 @@ public class Snake implements Animal, Comparable {
 		return (int)(this.getLength() - ((Snake)o).getLength());
 	}
 
+	/* toString() */
+	public String toString() {
+		return "Snake object";
+	}
+
 }

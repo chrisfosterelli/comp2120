@@ -41,4 +41,9 @@ public class Elephant implements Animal, Comparable {
 		return (int)(this.getWeight() - ((Elephant)o).getWeight());
 	}
 
+	/* toString() */
+	public String toString() {
+		return "Elephant object";
+	}
+
 }
