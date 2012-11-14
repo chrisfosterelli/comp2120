@@ -37,12 +37,21 @@ public class Zoo implements Iterator {
 	}
 
 	public void remove() {
-		this.zoo[this.count-1] = null;
-		for (int z = this.count ; z < this.zoo.length; z++) {
-			this.zoo[z-1] = this.zoo[z];
+		Animal[] newZoo;
+		newZoo = new Animal[this.zoo.length-1];
+		
+		// Copy over the array
+		for (int z = 0; z < this.zoo.length-1; z++) {
+			if (z > this.count-2) {
+				newZoo[z] = this.zoo[z+1];	
+			} else {
+				newZoo[z] = this.zoo[z];	
+			}
+
 		}
 
-		this.zoo[this.zoo.length-1] = null;
+		this.zoo = newZoo;
+		this.count--;
 	}
 
 }
