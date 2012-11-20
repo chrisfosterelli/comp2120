@@ -1,0 +1,22 @@
+stealth@cog:~/workspace/code/Java/COMP2120/s9$ javac ProductDriver.java ; java ProductDriver # Test Product calculation
+Computing products of test data... 
+	Test dataset 1: 12
+	Test dataset 2: 164808
+	Test dataset 3: 1824
+	Test dataset 4: 5184
+	Test dataset 5: 222813478
+stealth@cog:~/workspace/code/Java/COMP2120/s9$ javac LargestDriver.java ; java LargestDriver # Test Largest Integer calculation
+Computing largest int of test data... 
+	Test dataset 1: 14
+	Test dataset 2: 12390123
+	Test dataset 3: 9213
+	Test dataset 4: 6
+	Test dataset 5: 9
+stealth@cog:~/workspace/code/Java/COMP2120/s9$ javac ReverseDriver.java ; java ReverseDriver # Test String Reverse calculation
+Computing reverse of test data... 
+	Test dataset 1: koob
+	Test dataset 2: olleh
+	Test dataset 3: elpmaxe
+	Test dataset 4: !emocleW
+	Test dataset 5: ?uoy era woH
+stealth@cog:~/workspace/code/Java/COMP2120/s9$ 
